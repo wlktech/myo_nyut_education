@@ -58,17 +58,21 @@
                 <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Post Components:</h6>
-                        <a class="collapse-item" href="{{ route('users.index') }}">
+                        <a class="collapse-item" href="{{ route('banners.index') }}">
+                            <i class="fas fa-image mr-2"></i>
+                            Banners
+                        </a>
+                        <a class="collapse-item" href="{{ route('posts.index') }}">
                             <i class="fas fa-blog mr-2"></i>
                             News & Events
                         </a>
-                        <a class="collapse-item" href="{{ route('users.index') }}">
+                        <a class="collapse-item" href="{{ route('reviews.index') }}">
                             <i class="fas fa-comment mr-2"></i>
                             Reviews
                         </a>
-                        <a class="collapse-item" href="{{ route('users.index') }}">
+                        <a class="collapse-item" href="{{ route('students.index') }}">
                             <i class="fas fa-user-graduate mr-2"></i>
-                            Students
+                            <small>ထူးချွန်ကျောင်းသားများ</small>
                         </a>
                     </div>
                 </div>
